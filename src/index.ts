@@ -32,7 +32,7 @@ const connectToDb = async () => {
     console.log(e);
   }
 
-  app.listen(4000, () => console.log(`Server started on PORT -> ${PORT}`));
+  app.listen(PORT, () => console.log(`Server started on PORT -> ${PORT}`));
 };
 
 connectToDb().catch((err) => console.log(err));
