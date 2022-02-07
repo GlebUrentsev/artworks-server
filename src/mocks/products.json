@@ -1,51 +1,248 @@
 {
   "products": [
     {
-      "name": "Red Bench",
+      "name": "Summer",
       "category": "people",
       "price": 3.89,
       "currency": "USD",
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "https://images.pexels.com/photos/4545421/pexels-photo-4545421.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Sea"
       },
       "bestseller": true,
       "featured": false,
       "details": null
     },
     {
-      "name": "Egg Balloon",
-      "category": "food",
-      "price": 93.89,
+      "name": "G63 AMG",
+      "category": "premium",
+      "price": 9,
       "currency": "USD",
-      "image": "",
+      "image": {
+        "src": "https://images.pexels.com/photos/5331987/pexels-photo-5331987.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Car AMG"
+      },
       "bestseller": false,
       "featured": false,
       "details": null
     },
     {
-      "name": "Man",
-      "category": "people",
+      "name": "Town",
+      "category": "premium",
       "price": 100,
       "currency": "USD",
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "https://images.pexels.com/photos/6807335/pexels-photo-6807335.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Town"
       },
       "bestseller": false,
       "featured": false,
       "details": null
     },
     {
-      "name": "Architecture",
-      "category": "landmarks",
-      "price": 101,
+      "name": "Pets",
+      "category": "pets",
+      "price": 3,
       "currency": "USD",
-      "dimmentions": {
-        "width": 1020,
-        "height": 1020
+      "image": {
+        "src": "https://images.pexels.com/photos/33287/dog-viszla-close.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+        "alt": "Dogs"
       },
-      "image": "",
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Nice food",
+      "category": "food",
+      "price": 12,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/704569/pexels-photo-704569.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "alt": "Food 1"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Pancakes",
+      "category": "food",
+      "price": 4,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/357573/pexels-photo-357573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "alt": "Food 2"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Salad",
+      "category": "food",
+      "price": 12,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1109197/pexels-photo-1109197.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "alt": "Food 3"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Salad 2",
+      "category": "food",
+      "price": 40,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/2097090/pexels-photo-2097090.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+        "alt": "Food 4"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Landmark 1",
+      "category": "landmarks",
+      "price": 400,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/6073453/pexels-photo-6073453.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Landmark 1"
+      },
+      "bestseller": true,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Landmark 2",
+      "category": "landmarks",
+      "price": 200,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/10977431/pexels-photo-10977431.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Landmark 2"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Landmark 3",
+      "category": "landmarks",
+      "price": 200,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/4327637/pexels-photo-4327637.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Landmark 3"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Cities 1",
+      "category": "cities",
+      "price": 51,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/10551258/pexels-photo-10551258.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Cities 1"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Cities 2",
+      "category": "cities",
+      "price": 85,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/11042779/pexels-photo-11042779.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Cities 2"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Cities 3",
+      "category": "cities",
+      "price": 18,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/11051181/pexels-photo-11051181.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Cities 3"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Cities 4",
+      "category": "cities",
+      "price": 96,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/11045394/pexels-photo-11045394.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Cities 4"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Nature 1",
+      "category": "nature",
+      "price": 103,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1761279/pexels-photo-1761279.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Nature 1"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Nature 2",
+      "category": "nature",
+      "price": 103,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1785493/pexels-photo-1785493.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Nature 2"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Nature 3",
+      "category": "nature",
+      "price": 103,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/816608/pexels-photo-816608.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Nature 3"
+      },
+      "bestseller": false,
+      "featured": false,
+      "details": null
+    },
+    {
+      "name": "Nature 4",
+      "category": "nature",
+      "price": 103,
+      "currency": "USD",
+      "image": {
+        "src": "https://images.pexels.com/photos/1402850/pexels-photo-1402850.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Nature 4"
+      },
       "bestseller": false,
       "featured": false,
       "details": null
@@ -56,13 +253,13 @@
       "price": 101,
       "currency": "USD",
       "image": {
-        "src": "",
-        "alt": ""
+        "src": "https://images.pexels.com/photos/3299905/pexels-photo-3299905.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "alt": "Samurai King Restling"
       },
       "bestseller": false,
       "featured": true,
       "details": {
-        "dimmentions": {
+        "dimentions": {
           "width": 1020,
           "height": 1020
         },
@@ -70,16 +267,16 @@
         "description": "So how did the classical Latin become so incoherent? According to McClintock, a 15th century typesetter likely",
         "recommendations": [
           {
-            "src": "",
-            "alt": ""
+            "src": "https://images.pexels.com/photos/11006272/pexels-photo-11006272.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "alt": "Dog1"
           },
           {
-            "src": "",
-            "alt": ""
+            "src": "https://images.pexels.com/photos/2318990/pexels-photo-2318990.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "alt": "Dog2"
           },
           {
-            "src": "",
-            "alt": ""
+            "src": "https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+            "alt": "Dog3"
           }
         ]
       }

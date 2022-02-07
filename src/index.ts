@@ -19,7 +19,12 @@ app.get('/', (_, res) => {
   res.send('Artworks backend');
 });
 
-app.get('/mock-products', (_, res) => {
+app.post('/mock-products', (_, res) => {
+  // const {
+  //   data: { filters },
+  // } = req.body;
+
+  // console.log(filters.category);
   res.send(mockProducts);
 });
 
