@@ -1,18 +1,16 @@
 /* eslint-disable consistent-return */
 import { Request, Response, NextFunction } from 'express';
-// import { productService } from '../services';
+import { productService } from '../services';
 
 class ProductController {
   async getProducts(
-    req: Request,
+    _: Request,
     res: Response,
     next: NextFunction,
   ): Promise<void | Response<any, Record<string, any>>> {
     try {
-      const query = req.query;
-      // const products = await productService.products();
-      console.log(query);
-      return res.json('We get some products');
+      const products = await productService.products();
+      return res.json(products);
     } catch (e) {
       next(e);
     }

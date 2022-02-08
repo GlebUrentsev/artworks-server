@@ -12,6 +12,7 @@
     "@typescript-eslint/lines-between-class-members": "off",
     "@typescript-eslint/indent": "off",
     "no-underscore-dangle": "off",
-    "import/newline-after-import": ["error", { "count": 1 }]
+    "import/newline-after-import": ["error", { "count": 1 }],
+    "object-curly-newline": "off"
   }
 }
